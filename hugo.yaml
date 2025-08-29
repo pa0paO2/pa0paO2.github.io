@@ -26,7 +26,7 @@ languages:
         weight: 1
         params:
             sidebar:
-                subtitle: 一个信安人的博客
+                subtitle: Good Good Study, Day Day UP !
 
 services:
     # Change it to your Disqus shortname before using
@@ -36,8 +36,10 @@ services:
     googleAnalytics:
         id:
 
+# 单页文章数
 pagination:
-    pagerSize: 3
+    pagerSize: 5
+
 
 permalinks:
     post: /p/:slug/
@@ -212,15 +214,15 @@ menu:
     social:
         - identifier: github
           name: GitHub
-          url: https://github.com/CaiJimmy/hugo-theme-stack
+          url: https://github.com/pa0paO2
           params:
               icon: brand-github
 
-        - identifier: twitter
-          name: Twitter
-          url: https://twitter.com
+        - identifier: bilibili
+          name: Bilibili
+          url: https://space.bilibili.com/241290708
           params:
-              icon: brand-twitter
+              icon: brand-bilibili
 
 related:
     includeNewer: true

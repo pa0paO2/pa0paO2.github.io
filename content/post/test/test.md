@@ -1,13 +1,12 @@
 ---
-title: "Test"
-description: 
-date: 2025-08-29T11:51:54+08:00
-image: 
-math: 
-license: 
-hidden: false
-comments: true
-draft: true
+title: Chinese Test
+description: 这是一个副标题
+date: 2020-09-09
+slug: test-chinese
+image: helena-hertz-wWZzXlDpMog-unsplash.jpg
+categories:
+    - Test
+    - 测试
 ---
 
 # Markdown测试

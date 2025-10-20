@@ -100,6 +100,14 @@ enableEmoji = true
   icon = "fa-solid fa-tags"
 
   [[menu.main]]
+  name = "归档"
+  url  = "/archives/"
+  weight = 4
+  
+  [menu.main.params]
+    icon = "fa-solid fa-archive"
+
+  [[menu.main]]
   identifier = "about"
   parent = ""
   pre = ""
@@ -107,7 +115,7 @@ enableEmoji = true
   name = "关于"
   url = "/about/"
   title = ""
-  weight = 4
+  weight = 99
 
   [menu.main.params]
   icon = "fa-solid fa-tags"

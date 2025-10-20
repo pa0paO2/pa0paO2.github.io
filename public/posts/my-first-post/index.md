@@ -5,6 +5,6 @@
 
 ---
 
-> Author:   
+> 作者: [pa0paO2](https://github.com/pa0paO2)  
 > URL: http://localhost:1313/posts/my-first-post/  
 

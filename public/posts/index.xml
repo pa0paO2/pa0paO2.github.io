@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>All Posts - My New Hugo Site</title>
+    <title>所有文章 - pa0paO2 泡泡的知识库</title>
     <link>http://localhost:1313/posts/</link>
-    <description>My New Hugo Site</description>
+    <description>专注于网络安全与个人技术分享</description>
     <generator>Hugo 0.149.0 &amp; FixIt v0.4.0-alpha.2-20251014082535-5c74d431</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Fri, 01 Mar 2024 17:10:04 +0800</lastBuildDate>
+    <language>zh-CN</language>
+    <managingEditor>lll97972022@163.com (pa0paO2)</managingEditor>
+    <webMaster>lll97972022@163.com (pa0paO2)</webMaster>
+    <lastBuildDate>Fri, 17 Oct 2025 17:38:10 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>我的第一篇文章</title>
       <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Fri, 01 Mar 2024 17:10:04 +0800</pubDate>
+      <pubDate>Fri, 01 Mar 2024 17:10:04 +0800</pubDate><author>lll97972022@163.com (pa0paO2)</author>
       <guid>http://localhost:1313/posts/my-first-post/</guid>
       <description>&lt;p&gt;博客（英语：Blog）是一种在线日记型式的个人网站，借由张帖子章、图片或视频来记录生活、抒发情感或分享信息。博客上的文章通常根据张贴时间，以倒序方式由新到旧排列。&lt;/p&gt;</description>
     </item>

@@ -1,0 +1,13 @@
+baseURL = 'https://example.org/'
+languageCode = 'zh-cn'
+title = 'pa0paO2'
+theme='FixIt'
+
+[markup]
+  _merge = "shallow"
+[outputs]
+  _merge = "shallow"
+[taxonomies]
+  _merge = "shallow"
+ 
+ 

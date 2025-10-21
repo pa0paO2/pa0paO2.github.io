@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+    <meta name="robots" content="noodp" />
+    <title>00-YakLab靶场Vulinbox-前言 - pa0paO2 泡泡的知识库</title><meta name="author" content="pa0paO2">
+<meta name="description" content="【还在用 DVWA、Pikachu 练手？——是时候升级了】
+DVWA、Pikachu 陪伴了无数人入门，但“OWASP Top 10 跑一遍就毕业”的痛点也客观存在：
+场景浅、更新慢、缺少逻辑漏洞与前端加密等高级主题。
+如果想把“能跑通”变成“能实战”，你需要一块更现代的靶场——Vulinbox（Yakit 官方出品）。
+"><meta name="keywords" content='网络安全, 渗透测试, Hugo, FixIt'>
+  <meta itemprop="name" content="00-yakLab靶场Vulinbox-前言">
+  <meta itemprop="description" content="【还在用 DVWA、Pikachu 练手？——是时候升级了】
+DVWA、Pikachu 陪伴了无数人入门，但“OWASP Top 10 跑一遍就毕业”的痛点也客观存在：
+场景浅、更新慢、缺少逻辑漏洞与前端加密等高级主题。
+如果想把“能跑通”变成“能实战”，你需要一块更现代的靶场——Vulinbox（Yakit 官方出品）。">
+  <meta itemprop="datePublished" content="2025-10-20T14:20:47+08:00">
+  <meta itemprop="dateModified" content="2025-10-20T14:20:47+08:00">
+  <meta itemprop="wordCount" content="808">
+  <meta itemprop="keywords" content="YakLab"><meta property="og:url" content="http://localhost:1313/yaklab/introduce/">
+  <meta property="og:site_name" content="pa0paO2 泡泡的知识库">
+  <meta property="og:title" content="00-yakLab靶场Vulinbox-前言">
+  <meta property="og:description" content="【还在用 DVWA、Pikachu 练手？——是时候升级了】
+DVWA、Pikachu 陪伴了无数人入门，但“OWASP Top 10 跑一遍就毕业”的痛点也客观存在：
+场景浅、更新慢、缺少逻辑漏洞与前端加密等高级主题。
+如果想把“能跑通”变成“能实战”，你需要一块更现代的靶场——Vulinbox（Yakit 官方出品）。">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="yaklab">
+    <meta property="article:published_time" content="2025-10-20T14:20:47+08:00">
+    <meta property="article:modified_time" content="2025-10-20T14:20:47+08:00">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="00-yakLab靶场Vulinbox-前言">
+  <meta name="twitter:description" content="【还在用 DVWA、Pikachu 练手？——是时候升级了】
+DVWA、Pikachu 陪伴了无数人入门，但“OWASP Top 10 跑一遍就毕业”的痛点也客观存在：
+场景浅、更新慢、缺少逻辑漏洞与前端加密等高级主题。
+如果想把“能跑通”变成“能实战”，你需要一块更现代的靶场——Vulinbox（Yakit 官方出品）。">
+<meta name="application-name" content="pa0paO2泡泡">
+<meta name="apple-mobile-web-app-title" content="pa0paO2泡泡"><meta name="theme-color" data-light="#f8f8f8" data-dark="#252627" content="#f8f8f8"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" type="text/html" href="http://localhost:1313/yaklab/introduce/" title="00-yakLab靶场Vulinbox-前言 - pa0paO2 泡泡的知识库" /><link rel="prev" type="text/html" href="http://localhost:1313/about/" title="关于" /><link rel="alternate" type="text/markdown" href="http://localhost:1313/yaklab/introduce/index.md" title="00-yakLab靶场Vulinbox-前言 - pa0paO2 泡泡的知识库"><link rel="stylesheet" href="/css/config.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.removeAttribute('onload');this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "00-yakLab靶场Vulinbox-前言",
+    "inLanguage": "zh-CN",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "http:\/\/localhost:1313\/yaklab\/introduce\/"
+    },"genre": "yaklab","wordcount":  808 ,
+    "url": "http:\/\/localhost:1313\/yaklab\/introduce\/","datePublished": "2025-10-20T14:20:47+08:00","dateModified": "2025-10-20T14:20:47+08:00","publisher": {
+      "@type": "Organization",
+      "name": ""},"author": {
+        "@type": "Person",
+        "name": "pa0paO2"
+      },"description": ""
+  }
+  </script><script src="/js/head/color-scheme.min.js"></script></head>
+  <body data-header-desktop="sticky" data-header-mobile="auto"><div class="wrapper" data-page-style="normal"><header class="desktop animate__faster" id="header-desktop">
+  <div class="header-wrapper">
+    <div class="header-title">
+      <a href="/" title="pa0paO2 泡泡的知识库"><span class="header-title-text">pa0paO2 泡泡的知识库</span></a><span class="header-subtitle"></span></div>
+    <nav>
+      <ul class="menu"><li class="menu-item">
+              <a class="menu-link" href="javascript:void(0);"></a></li><li class="menu-item">
+              <a class="menu-link" href="/"><i class="fa-solid fa-folder-tree fa-fw fa-sm" aria-hidden="true"></i> 首页</a></li><li class="menu-item">
+              <a class="menu-link" href="/categories/"><i class="fa-solid fa-folder-tree fa-fw fa-sm" aria-hidden="true"></i> 分类</a></li><li class="menu-item">
+              <a class="menu-link" href="/tags/"><i class="fa-solid fa-tags fa-fw fa-sm" aria-hidden="true"></i> 标签</a></li><li class="menu-item">
+              <a class="menu-link" href="/archives/"><i class="fa-solid fa-archive fa-fw fa-sm" aria-hidden="true"></i> 归档</a></li><li class="menu-item">
+              <a class="menu-link" href="/about/"><i class="fa-solid fa-tags fa-fw fa-sm" aria-hidden="true"></i> 关于</a></li><li class="menu-item delimiter"></li><li class="menu-item search" id="search-desktop">
+            <input type="text" placeholder="搜索文章标题或内容……" id="search-input-desktop">
+            <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+              <i class="fa-solid fa-search fa-fw" aria-hidden="true"></i>
+            </a>
+            <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+              <i class="fa-solid fa-times-circle fa-fw" aria-hidden="true"></i>
+            </a>
+            <span class="search-button search-loading" id="search-loading-desktop">
+              <i class="fa-solid fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+            </span>
+          </li><li class="menu-item theme-switch" title="切换主题">
+          <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+        </li></ul>
+    </nav>
+  </div>
+</header><header class="mobile animate__faster" id="header-mobile">
+  <div class="header-container">
+    <div class="header-wrapper">
+      <div class="header-title">
+        <a href="/" title="pa0paO2 泡泡的知识库"><span class="header-title-text">pa0paO2 泡泡的知识库</span></a><span class="header-subtitle"></span></div>
+      <div class="menu-toggle" id="menu-toggle-mobile">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+    <nav>
+      <ul class="menu" id="menu-mobile"><li class="search-wrapper">
+            <div class="search mobile" id="search-mobile">
+              <input type="text" placeholder="搜索文章标题或内容……" id="search-input-mobile">
+              <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                <i class="fa-solid fa-search fa-fw" aria-hidden="true"></i>
+              </a>
+              <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                <i class="fa-solid fa-times-circle fa-fw" aria-hidden="true"></i>
+              </a>
+              <span class="search-button search-loading" id="search-loading-mobile">
+                <i class="fa-solid fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+              </span>
+            </div>
+            <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+              取消
+            </a>
+          </li><li class="menu-item"><a class="menu-link" href="javascript:void(0);"></a></li><li class="menu-item"><a class="menu-link" href="/"><i class="fa-solid fa-folder-tree fa-fw fa-sm" aria-hidden="true"></i> 首页</a></li><li class="menu-item"><a class="menu-link" href="/categories/"><i class="fa-solid fa-folder-tree fa-fw fa-sm" aria-hidden="true"></i> 分类</a></li><li class="menu-item"><a class="menu-link" href="/tags/"><i class="fa-solid fa-tags fa-fw fa-sm" aria-hidden="true"></i> 标签</a></li><li class="menu-item"><a class="menu-link" href="/archives/"><i class="fa-solid fa-archive fa-fw fa-sm" aria-hidden="true"></i> 归档</a></li><li class="menu-item"><a class="menu-link" href="/about/"><i class="fa-solid fa-tags fa-fw fa-sm" aria-hidden="true"></i> 关于</a></li><li class="menu-item menu-system">
+          <span class="menu-system-item theme-switch" title="切换主题"><i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i></span></li>
+      </ul>
+    </nav>
+  </div>
+</header><div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+  </div>
+  <div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+  </div><main class="fi-container"><article class="page single special">
+    <div class="header"><h1 class="single-title animate__animated animate__pulse animate__faster">00-YakLab靶场Vulinbox-前言</h1></div><div class="content" id="content"><p>【还在用 DVWA、Pikachu 练手？——是时候升级了】</p>
+<p>DVWA、Pikachu 陪伴了无数人入门，但“OWASP Top 10 跑一遍就毕业”的痛点也客观存在：<br>
+场景浅、更新慢、缺少逻辑漏洞与前端加密等高级主题。<br>
+如果想把“能跑通”变成“能实战”，你需要一块更现代的靶场——Vulinbox（Yakit 官方出品）。</p>
+<hr>
+<h2 class="heading-element" id="1-vulinbox-是什么"><span>1. Vulinbox 是什么？</span>
+  <a href="#1-vulinbox-%e6%98%af%e4%bb%80%e4%b9%88" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>一句话：覆盖 OWASP Top 10、业务逻辑、组件漏洞、前端加解密与 JWT 伪造的「一站式综合靶场」。</p>
+<ul>
+<li>
+<p>20+ 漏洞模块，持续按月迭代</p>
+</li>
+<li>
+<p>全中文界面 + 分级 Hint + 官方 WriteUp</p>
+</li>
+<li>
+<p>单二进制、零依赖、一键启动，5 分钟完成部署</p>
+</li>
+<li>
+<p>与 Yakit 抓包、Web Fuzzer、热加载脚本无缝联动，练习即实战</p>
+</li>
+</ul>
+<hr>
+<h2 class="heading-element" id="2-安装--启动3-步5-分钟"><span>2. 安装 &amp; 启动（3 步，5 分钟）</span>
+  <a href="#2-%e5%ae%89%e8%a3%85--%e5%90%af%e5%8a%a83-%e6%ad%a55-%e5%88%86%e9%92%9f" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><ol>
+<li>
+<p>装 Yakit</p>
+<ul>
+<li>官网 <a href="https://yaklang.com/"target="_blank" rel="external nofollow noopener noreferrer">yaklang.com</a> 一条命令或直链 exe，双击即可
+<img loading="lazy" src='https://raw.githubusercontent.com/pa0paO2/blog_picb/main/official/20251017154532449.png' alt="|300"></li>
+</ul>
+</li>
+<li>
+<p>开靶场<br>
+右上角「设置」→ 实验性功能 → Vulinbox → 一键安装（镜像 ≈ 100 MB）
+<img loading="lazy" src='https://raw.githubusercontent.com/pa0paO2/blog_picb/main/official/20251017154532450.png' alt="|300">
+<img loading="lazy" src='https://raw.githubusercontent.com/pa0paO2/blog_picb/main/official/20251017154532451.png' alt="|300"></p>
+</li>
+<li>
+<p>跑起来<br>
+默认端口 8787 → Start，浏览器自动弹出 <code>http://127.0.0.1:8787</code>，开刷！
+<img loading="lazy" src='https://raw.githubusercontent.com/pa0paO2/blog_picb/main/official/20251017154532452.png' alt="|300"></p>
+</li>
+</ol>
+<blockquote>
+<p>端口冲突？在启动页随意改；用完点 Stop，进程干净退出。</p></blockquote>
+<hr>
+<h2 class="heading-element" id="3-横向对比vulinbox-vs-传统靶场"><span>3. 横向对比：Vulinbox vs 传统靶场</span>
+  <a href="#3-%e6%a8%aa%e5%90%91%e5%af%b9%e6%af%94vulinbox-vs-%e4%bc%a0%e7%bb%9f%e9%9d%b6%e5%9c%ba" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><table>
+  <thead>
+      <tr>
+          <th style="text-align: left">维度</th>
+          <th style="text-align: left">Vulinbox</th>
+          <th style="text-align: left">DVWA</th>
+          <th style="text-align: left">Pikachu</th>
+          <th style="text-align: left">WebGoat</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">安装成本</td>
+          <td style="text-align: left">单文件，零依赖</td>
+          <td style="text-align: left">PHP+MySQL</td>
+          <td style="text-align: left">PHP+MySQL</td>
+          <td style="text-align: left">Java+Maven</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">漏洞深度</td>
+          <td style="text-align: left">前端加密、JWT、SSRF、逻辑越权</td>
+          <td style="text-align: left">10 类基础</td>
+          <td style="text-align: left">15 类基础</td>
+          <td style="text-align: left">30+ 企业级</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">中文支持</td>
+          <td style="text-align: left">界面+文档全中文</td>
+          <td style="text-align: left">英文</td>
+          <td style="text-align: left">中文</td>
+          <td style="text-align: left">英文</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">更新频率</td>
+          <td style="text-align: left">每月迭代</td>
+          <td style="text-align: left">年更</td>
+          <td style="text-align: left">已停更</td>
+          <td style="text-align: left">季更</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">上手体验</td>
+          <td style="text-align: left">Hint/WriteUp/一键抓包</td>
+          <td style="text-align: left">纯手动</td>
+          <td style="text-align: left">无提示</td>
+          <td style="text-align: left">英文教程</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+  </tbody>
+</table>
+<p>结论：</p>
+<ul>
+<li>
+<p>0-1 年新手：Vulinbox 足够友好，场景又新</p>
+</li>
+<li>
+<p>1-3 年进阶：前端加密、业务逻辑关卡直接对标实战</p>
+</li>
+<li>
+<p>红队应急：拿来验证 Payload 比自建环境快 10 倍</p>
+</li>
+</ul>
+<hr>
+<h2 class="heading-element" id="4-高效通关路线"><span>4. 高效通关路线</span>
+  <a href="#4-%e9%ab%98%e6%95%88%e9%80%9a%e5%85%b3%e8%b7%af%e7%ba%bf" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><ol>
+<li>
+<p>按目录逐级刷：SQL 注入 → XSS → SSRF → 逻辑越权 → 前端加密 → JWT</p>
+</li>
+<li>
+<p>每关先看 Hint，再 F12 读源码，养成“先看验证逻辑再下手”的习惯</p>
+</li>
+<li>
+<p>每类漏洞写 3 行总结，沉淀成自己的「漏洞手册」</p>
+</li>
+</ol>
+<hr>
+<h2 class="heading-element" id="5-下一站实战连载预告"><span>5. 下一站：实战连载预告</span>
+  <a href="#5-%e4%b8%8b%e4%b8%80%e7%ab%99%e5%ae%9e%e6%88%98%e8%bf%9e%e8%bd%bd%e9%a2%84%e5%91%8a" class="heading-mark">
+    <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
+  </a>
+</h2><p>环境已就绪，下一篇带你打<br>
+「高级前端加解密与验签实战 —— HMAC-SHA256 表单爆破」：</p>
+<ul>
+<li>定位签名算法 → 手搓 JS 脚本 → 口令爆破 → 热加载自动化<br>
+可选择用 Yakit或burpsuite，搭配一个编译器</li>
+</ul>
+<blockquote>
+<p>靶场就绪，练习开始。</p></blockquote>
+</div></article></main><footer class="footer">
+    <div class="footer-container"><div class="footer-line powered">由 <a href="https://gohugo.io/" target="_blank" rel="external nofollow noopener noreferrer" title="Hugo 0.149.0">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/hugo-fixit/FixIt" target="_blank" rel="external" title="FixIt v0.4.0-alpha.2-20251014082535-5c74d431">FixIt</a>
+        </div><div class="footer-line copyright" itemscope itemtype="http://schema.org/CreativeWork"><i class="fa-regular fa-copyright fa-fw" aria-hidden="true"></i>
+            <span itemprop="copyrightYear">2025</span><span class="author" itemprop="copyrightHolder">
+              <a href="https://github.com/pa0paO2"target="_blank" rel="external nofollow noopener noreferrer">pa0paO2</a></span></div><div class="footer-line statistics"></div></div>
+  </footer></div><div class="widgets"><div class="fixed-buttons animate__faster d-none"><div class="fixed-button back-to-top" role="button" aria-label="回到顶部"><i class="fa-solid fa-arrow-up fa-fw" aria-hidden="true"></i><span class="variant-numeric d-none">0%</span>
+        </div></div><div id="mask"></div><noscript>
+    <div class="noscript-warning">该网站在启用 JavaScript 的情况下效果最佳。</div>
+  </noscript>
+</div><script src="/lib/autocomplete/autocomplete.min.js" defer></script><script src="/lib/fuse/fuse.min.js" defer></script><script src="/lib/sharer/sharer.min.js" async defer></script><script src="/lib/pangu/pangu.min.js" defer></script><script src="/yaklab/introduce/config/page.js" defer></script><script src="/js/theme.min.js" defer></script></body>
+</html>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>所有文章 - 泡泡pa0paO2的信安知识库</title>
-    <link>http://localhost:1313/posts/</link>
+    <title>YakLab - 分类 - 泡泡pa0paO2的信安知识库</title>
+    <link>http://localhost:1313/categories/yaklab/</link>
     <description>专注于网络安全与个人技术分享</description>
     <generator>Hugo 0.149.0 &amp; FixIt v0.4.0-alpha.2-20251014082535-5c74d431</generator>
     <language>zh-CN</language>
     <managingEditor>lll97972022@163.com (pa0paO2)</managingEditor>
     <webMaster>lll97972022@163.com (pa0paO2)</webMaster>
     <lastBuildDate>Mon, 20 Oct 2025 14:20:47 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/yaklab/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>00-yakLab靶场Vulinbox-前言</title>
       <link>http://localhost:1313/posts/yaklab/introduce/</link>

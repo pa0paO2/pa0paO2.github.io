@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>所有文章 - 泡泡pa0paO2的信安知识库</title>
-    <link>http://localhost:1313/posts/</link>
+    <title>所有yaklab - pa0paO2 泡泡的知识库</title>
+    <link>http://localhost:1313/yaklab/</link>
     <description>专注于网络安全与个人技术分享</description>
     <generator>Hugo 0.149.0 &amp; FixIt v0.4.0-alpha.2-20251014082535-5c74d431</generator>
     <language>zh-CN</language>
     <managingEditor>lll97972022@163.com (pa0paO2)</managingEditor>
     <webMaster>lll97972022@163.com (pa0paO2)</webMaster>
     <lastBuildDate>Mon, 20 Oct 2025 14:20:47 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/yaklab/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>00-yakLab靶场Vulinbox-前言</title>
-      <link>http://localhost:1313/posts/yaklab/introduce/</link>
+      <link>http://localhost:1313/yaklab/introduce/</link>
       <pubDate>Mon, 20 Oct 2025 14:20:47 +0800</pubDate><author>lll97972022@163.com (pa0paO2)</author>
-      <guid>http://localhost:1313/posts/yaklab/introduce/</guid>
+      <guid>http://localhost:1313/yaklab/introduce/</guid>
       <category domain="http://localhost:1313/categories/yaklab/">YakLab</category>
       <description>&lt;p&gt;【还在用 DVWA、Pikachu 练手？——是时候升级了】&lt;/p&gt;&#xA;&lt;p&gt;DVWA、Pikachu 陪伴了无数人入门，但“OWASP Top 10 跑一遍就毕业”的痛点也客观存在：&lt;br&gt;&#xA;场景浅、更新慢、缺少逻辑漏洞与前端加密等高级主题。&lt;br&gt;&#xA;如果想把“能跑通”变成“能实战”，你需要一块更现代的靶场——Vulinbox（Yakit 官方出品）。&lt;/p&gt;</description>
     </item>

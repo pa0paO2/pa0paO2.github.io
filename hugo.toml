@@ -2,7 +2,7 @@
 # 站点核心信息（必须）
 # ==========================================
 # 网站标题
-title = "pa0paO2 泡泡的知识库"
+title = "泡泡pa0paO2的信安知识库"
 baseURL = "https://pa0pao2.pages.dev/"
 theme = ["FixIt"]
 defaultContentLanguage = "zh-cn"
@@ -14,7 +14,7 @@ copyright = ""
 # whether to use robots.txt
 enableRobotsTXT = true
 # whether to use git commit log
-enableGitInfo = true
+enableGitInfo = false
 # whether to use emoji code
 enableEmoji = true
 # the main sections of a site
@@ -103,7 +103,7 @@ enableEmoji = true
   name = "归档"
   url  = "/archives/"
   weight = 4
-  
+
   [menu.main.params]
     icon = "fa-solid fa-archive"
 
@@ -1175,16 +1175,16 @@ fraction = true
 fontawesome = true
 # license info (HTML format is supported)
 license = '<a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>'
-# whether to show link to Raw Markdown content of the post
-linkToMarkdown = true
+# 文章末尾编辑等按钮
+linkToMarkdown = false
 # FixIt 0.3.0 | NEW whether to show link to view source code of the post
-linkToSource = true
+linkToSource = false
 # FixIt 0.3.0 | NEW whether to show link to edit the post
-linkToEdit = true
+linkToEdit = false
 # FixIt 0.3.0 | NEW whether to show link to report issue for the post
 linkToReport = true
 # FixIt 0.3.20 | NEW whether to show link to view the post in VSCode
-linkToVscode = true
+linkToVscode = false
 # FixIt 0.3.10 | CHANGED Page style ["narrow", "normal", "wide", ...]
 pageStyle = "normal"
 # FixIt 0.2.17 | CHANGED Auto Bookmark Support
@@ -1210,12 +1210,12 @@ url = ""
 
 # Table of the contents config
 [params.page.toc]
-# whether to enable the table of the contents
+# 允许TOC 目录
 enable = true
 # whether to keep the static table of the contents in front of the post
 keepStatic = false
-# whether to make the table of the contents in the sidebar automatically collapsed
-auto = true
+# 小目录自动缩放
+auto = false
 # FixIt 0.2.13 | NEW position of TOC ["left", "right"]
 position = "right"
 # FixIt 0.3.12 | NEW supersede `markup.tableOfContents` settings

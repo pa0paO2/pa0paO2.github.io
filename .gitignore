@@ -1,0 +1,30 @@
+# Hugo 生成目录
+# /public/
+# /resources/_gen/
+# /assets/jsconfig.json
+# /hugo.exe
+# /hugo.darwin
+# /hugo.linux
+
+# 本地 IDE / 系统缓存
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 环境变量 & 密钥
+.env
+*.key
+*.token
+/*.txt
+
+# Node 相关（如果你用了 postcss、tailwind 等）
+node_modules/
+package-lock.json
+yarn.lock
+
+# 可选：锁定 Hugo 版本文件（看团队习惯）
+# .hugo_version
